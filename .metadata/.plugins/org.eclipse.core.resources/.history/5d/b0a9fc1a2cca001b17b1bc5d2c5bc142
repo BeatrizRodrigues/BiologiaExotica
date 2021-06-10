@@ -1,0 +1,65 @@
+package Test;
+
+public class GlaucusAtlanticus extends Animal{
+
+	/*
+	
+	Class dos animais individuais devem herdar da class animal e ter o polimorfismo.
+	
+	Class Animais: Curiosidade, Habilidade.
+	
+	Métodos: print, get e set.
+ */
+
+	public String curiosidade;
+	public String habilidade;
+	
+	public GlaucusAtlanticus(String especie, String nomeCientífico,
+			Double pesoMedio, String classe, String longevidade,
+			String origem, String curiosidade, String habilidade) {
+		super(especie, nomeCientífico, pesoMedio, classe, longevidade, origem);
+		// TODO Auto-generated constructor stub
+		
+		this.curiosidade = curiosidade;
+		this.habilidade = habilidade;
+		
+	}
+	
+
+	@Override
+	public void especie(String especie) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void nomeCientífico(String nomeCientífico) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void pesoMedio(String pesoMedio) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void classe(String classe) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void longevidade(String Longevidade) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void origem(String origem) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

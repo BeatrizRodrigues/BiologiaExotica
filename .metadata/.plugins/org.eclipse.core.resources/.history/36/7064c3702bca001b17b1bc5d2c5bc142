@@ -1,0 +1,29 @@
+package Test;
+
+public abstract class Animal {
+
+
+	
+	public String especie;
+	public String nomeCientífico;
+	public String pesoMedio;
+	public String classe;
+	public String Longevidade;
+	public String origem; // (pais/estado)
+	
+	public Animal(String especie, String nomeCientífico,
+			String pesoMedio, String classe,
+			String longevidade, String origem) {
+		super();
+		this.especie = especie;
+		this.nomeCientífico = nomeCientífico;
+		this.pesoMedio = pesoMedio;
+		this.classe = classe;
+		Longevidade = longevidade;
+		this.origem = origem;
+	}
+	
+	
+
+
+}
