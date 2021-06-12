@@ -26,6 +26,7 @@ public class Dados extends Animal implements InterfaceAnimal{
 	public void especie(String tamanho) {
 		// TODO Auto-generated method stub
 		
+		
 	}
 
 	@Override
@@ -75,6 +76,7 @@ public class Dados extends Animal implements InterfaceAnimal{
 		// TODO Auto-generated method stub
 		
 	}
-	
+
+
 
 }

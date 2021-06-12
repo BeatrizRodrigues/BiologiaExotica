@@ -1,12 +1,9 @@
 package _AnimalExotico;
 
 import java.util.List;
-
-import java.util.Scanner;
-
 import java.util.ArrayList;
 
-public abstract class Animal {
+public class Animal {
 
 	private String tamanho;
 	private String nomeCientifico;
@@ -27,12 +24,7 @@ public abstract class Animal {
 		this.pesoMedio = pesoMedio;
 		this.longevidade = longevidade;
 		this.origem = origem;
-
 	}
-	//Método
-	
-	Scanner leia= new Scanner(System.in);
-	
 	
 	// Get e Set 
 	
@@ -40,8 +32,8 @@ public abstract class Animal {
 		return tamanho;
 	}
 
-	public void setTamanho(String tamanho) {
-		this.tamanho = tamanho;
+	public void setTamanho(String especie) {
+		this.tamanho = especie;
 	}
 
 	public String getNomeCientifico() {
@@ -87,37 +79,13 @@ public abstract class Animal {
 	// Lista de Animais
 	
 	List<Animal> listAnimal = new ArrayList<Animal>();
-	public void adicionaAnimal(Animal animal) 
-	{
-		
-		
-		
-		
-		
-		System.out.println("Qual o nome do animal?");
-		nome = leia.next();
-		System.out.println("Qual a longevidade do animal?");
-		longevidade = leia.next();
-		System.out.println("Qual a origem do animal?");
-		origem = leia.next();
-		System.out.println("Qual o peso do animal?");
-		pesoMedio = leia.next();
-		System.out.println("Qual o tamanho do animal?");
-		tamanho = leia.next();
-		System.out.println("Qual o nome do animal?");
-		nomeCientifico = leia.next();
-		
+	
+	// Metodo add
+	
+	public void addAnimal(Animal animal) {
+						
 		listAnimal.add(animal);
 	}
-	public void mostraaNIMAL(Animal animal) 
-	{
-		System.out.println("Nome do animal: " + nome);
-		System.out.println("Tamanho do animal: " + tamanho);
-		System.out.println("Peso do animal: " + pesoMedio);
-		System.out.println("Nome Cientifico do animal: " + nomeCientifico);
-		System.out.println("Origem do animal: " + origem);
-	}
-	
 	// Metodo remover
 	
 	public void removeAnimal(Animal animal) {
@@ -127,19 +95,13 @@ public abstract class Animal {
 	
 	public void printAnimal() {
 		
-	System.out.println("\n\tAs caracteristicas do seu Animal: " );
-	
-	for(int i = 0; i<listAnimal.size(); i++) {
-	
-	System.out.println(
-					"\n\t" + listAnimal.get(i).getNome() + " " 
-	+ listAnimal.get(i).getNomeCientifico() 
-	+ " " + listAnimal.get(i).getOrigem() 
-	+ " " + listAnimal.get(i).getTamanho() 
-	+ " " + listAnimal.get(i).getPesoMedio() 
-	+ " " + listAnimal.get(i).getLongevidade()
-	);
+		System.out.println("\n\tAs caracteristicas do seu Animal: " );
+		
+		for(int i = 0; i<listAnimal.size(); i++) {
+			
+			System.out.println(
+					"\n\t" + listAnimal.get(i).getNome() + " " + listAnimal.get(i).getNomeCientifico() + " " + listAnimal.get(i).getOrigem() + " " + listAnimal.get(i).getTamanho() + " " + listAnimal.get(i).getPesoMedio() + " " + listAnimal.get(i).getLongevidade()
+					);
 		}
 	}
-	
 }

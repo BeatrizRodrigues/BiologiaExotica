@@ -12,12 +12,13 @@ public class Programa {
 				
 				
 				Repteis r = new Repteis();	
-				Aves a = new Aves();
 				
-				r.adicionaAnimal(a);
+				r.adicionaAnimal(r);
 				
+	
+				r.mostraaNIMAL(r);
+			
 				
-				r.mostraaNIMAL(a);
 				
 				
 				

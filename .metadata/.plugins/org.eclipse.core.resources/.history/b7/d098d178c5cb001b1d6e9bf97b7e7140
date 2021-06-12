@@ -14,10 +14,18 @@ public class Programa {
 				Repteis r = new Repteis();	
 				Aves a = new Aves();
 				
-				r.adicionaAnimal(a);
+				r.adicionaAnimal(r);
 				
+				r.mostraaNIMAL(r);
+				
+				
+				
+				a.adicionaAnimal(a);
+				a.mostraaNIMAL(a);
 				
 				r.mostraaNIMAL(a);
+			
+				
 				
 				
 				

@@ -89,11 +89,6 @@ public abstract class Animal {
 	List<Animal> listAnimal = new ArrayList<Animal>();
 	public void adicionaAnimal(Animal animal) 
 	{
-		
-		
-		
-		
-		
 		System.out.println("Qual o nome do animal?");
 		nome = leia.next();
 		System.out.println("Qual a longevidade do animal?");
@@ -117,6 +112,12 @@ public abstract class Animal {
 		System.out.println("Nome Cientifico do animal: " + nomeCientifico);
 		System.out.println("Origem do animal: " + origem);
 	}
+	
+	
+	
+	
+	
+	// Metodo add
 	
 	// Metodo remover
 	

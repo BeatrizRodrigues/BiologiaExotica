@@ -4,7 +4,7 @@ public interface InterfaceAnimal {
 	
 	// Metodos polimorfismo
 	
-	abstract public void especie(String especie);
+	abstract public void especie(String tamanho);
 	abstract public void nomeCientifico(String nomeCientifico);
 	abstract public void nome(String nome);
 	abstract public void pesoMedio(String pesoMedio);
