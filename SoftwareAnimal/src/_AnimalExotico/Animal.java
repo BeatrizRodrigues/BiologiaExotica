@@ -1,56 +1,20 @@
 package _AnimalExotico;
 
 import java.util.List;
-
-import Animal.Animal;
-
 import java.util.ArrayList;
 
-<<<<<<< HEAD
-    // Atributo
-    
-    protected String especie;
-    
-    protected String nomeCientifico;
-    
-    protected String nome;
-    
-    protected Double pesoMedio;
-    
-    protected String longevidade;
-
-    protected String origem; // (pais/estado)
-    
-    // Construtor
-    
-    public Animal(String especie, String nomeCientifico,
-            Double pesoMedio,String longevidade, String origem) {
-        super();
-        this.especie = especie;
-        this.nomeCientifico = nomeCientifico;
-        this.pesoMedio = pesoMedio;
-        this.longevidade = longevidade;
-        this.origem = origem;
-    }
-    
-    // Metodos
-    
-    abstract public void especie(String especie);
-    abstract public void nomeCientifico(String nomeCientifico);
-    abstract public void nome(String nome);
-    abstract public void pesoMedio(String pesoMedio);
-    abstract public void longevidade(String Longevidade);
-    abstract public void origem(String origem);
-=======
 public class Animal {
-	private String nome;
+
 	private String tamanho;
 	private String nomeCientifico;
+	private String nome;
 	private String pesoMedio;
-	private Double velocidadeMaxima;
 	private String longevidade;
-	private String origem;
+	private String origem; // (pais/estado)
 	
+	// Construtor
+	
+	public Animal() {}
 	public Animal(String tamanho, String nomeCientifico, String nome,
 			String  pesoMedio, String  longevidade, String origem) {
 		super();
@@ -61,77 +25,83 @@ public class Animal {
 		this.longevidade = longevidade;
 		this.origem = origem;
 	}
-
 	
-	public String getNome() {
-		return nome;
-	}
-
-
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-
-
+	// Get e Set 
+	
 	public String getTamanho() {
 		return tamanho;
 	}
 
-
-	public void setTamanho(String tamanho) {
-		this.tamanho = tamanho;
+	public void setTamanho(String especie) {
+		this.tamanho = especie;
 	}
-
 
 	public String getNomeCientifico() {
 		return nomeCientifico;
 	}
 
-
 	public void setNomeCientifico(String nomeCientifico) {
 		this.nomeCientifico = nomeCientifico;
 	}
->>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 
 	public String getPesoMedio() {
 		return pesoMedio;
 	}
 
-
 	public void setPesoMedio(String pesoMedio) {
 		this.pesoMedio = pesoMedio;
 	}
 
-
-	public String getNomeCientífico() {
-		return nomeCientifico;
-	}
-	public void setNomeCientífico(String nomeCientífico) {
-		this.nomeCientifico = nomeCientífico;
-	}
-	public Double getVelocidadeMaxima() {
-		return velocidadeMaxima;
-	}
-	public void setVelocidadeMaxima(Double velocidadeMaxima) {
-		this.velocidadeMaxima = velocidadeMaxima;
-	}
-	public String getLongevidade() {
+	public String  getLongevidade() {
 		return longevidade;
 	}
-	public void setLongevidade(String longevidade) {
+
+	public void setLongevidade(String  longevidade) {
 		this.longevidade = longevidade;
 	}
+
 	public String getOrigem() {
 		return origem;
 	}
+
 	public void setOrigem(String origem) {
 		this.origem = origem;
 	}
-	
-	abstract void armazenarDados(Animal n);
-	abstract void removerDados(Animal n);
-	//abstract void atualizarDados(String n);
-	abstract void imprimir();
 
+	// Lista de Animais
+	
+	List<Animal> listAnimal = new ArrayList<Animal>();
+	
+	// Metodo add
+	
+	public void addAnimal(Animal animal) {
+						
+		listAnimal.add(animal);
+	}
+	// Metodo remover
+	
+	public void removeAnimal(Animal animal) {
+		
+		listAnimal.remove(animal);
+	}
+	
+	public void printAnimal() {
+		
+		System.out.println("\n\tAs caracteristicas do seu Animal: " );
+		
+		for(int i = 0; i<listAnimal.size(); i++) {
+			
+			System.out.println(
+					"\n\t" + listAnimal.get(i).getNome() + " " + listAnimal.get(i).getNomeCientifico() + " " + listAnimal.get(i).getOrigem() + " " + listAnimal.get(i).getTamanho() + " " + listAnimal.get(i).getPesoMedio() + " " + listAnimal.get(i).getLongevidade()
+					);
+		}
+	}
 }

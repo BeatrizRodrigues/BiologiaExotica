@@ -3,17 +3,22 @@ package _AnimalExotico;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import Animal.Animal;
-
 public class Peixes extends Animal implements InterfaceAnimal {
+	
 	Scanner ler = new Scanner(System.in);
+	
 	ArrayList<Animal> list = new ArrayList<Animal>();
+	
 	public String tipoAgua;
 	
-	public Peixe(String tamanho, String nomeCientifico, String nome,
-			String  pesoMedio, String  longevidade, String origem, String tipoAgua) {
-		
+	public Peixes() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Peixes(String tamanho, String nomeCientifico, String nome, String pesoMedio, String longevidade,
+			String origem, String tipoAgua) {
 		super(tamanho, nomeCientifico, nome, pesoMedio, longevidade, origem);
+		// TODO Auto-generated constructor stub
 		this.tipoAgua = tipoAgua;
 	}
 	
@@ -21,12 +26,14 @@ public class Peixes extends Animal implements InterfaceAnimal {
 	public void armazenarDados(Animal n) {
 		list.add(n);
 	}
+	
 	@Override
 	public void removerDados(Animal n) {
 		list.remove(n);
 	}
+	
 	@Override
-	public void imprimir() {
+	public void imprimirAnimal() {
 			for(int i = 0; i<list.size(); i++) {
 				System.out.println("Peixes: ");
 				System.out.println(
@@ -38,6 +45,42 @@ public class Peixes extends Animal implements InterfaceAnimal {
 					+ list.get(i).getLongevidade() + " " + tipoAgua);
 							
 		}
+	}
+	
+	@Override
+	public void especie(String tamanho) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	@Override
+	public void nomeCientifico(String nomeCientifico) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	@Override
+	public void nome(String nome) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	@Override
+	public void pesoMedio(String pesoMedio) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	@Override
+	public void longevidade(String Longevidade) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	@Override
+	public void origem(String origem) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

@@ -2,12 +2,10 @@ package _AnimalExotico;
 
 import java.util.Scanner;
 
-import Animal.Peixe;
-
 public class Programa {
 
 	public static void main(String[] args) {
-		//Peixes inseto = new Peixes();
+		Peixes inseto = new Peixes();
 		
 				Scanner read = new Scanner(System.in);
 				String nome, nomeCientifico, tamanho, pesoMedio, longevidade, origem;
@@ -35,10 +33,11 @@ public class Programa {
 				tipoAgua = read.next();
 				
 				
-				Peixe animalDados = new Peixe(nome,	nomeCientifico, tamanho, pesoMedio, longevidade, origem, tipoAgua);
+				Peixes animalDados = new Peixes(tamanho, nomeCientifico, nome, pesoMedio, longevidade,
+						origem, tipoAgua);
 				
 				animalDados.armazenarDados(animalDados);
-				animalDados.imprimir();
+				animalDados.imprimirAnimal();
 	}
 
 }

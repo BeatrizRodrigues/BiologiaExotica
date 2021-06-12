@@ -40,4 +40,22 @@ public class Arachnideos extends Animal implements InterfaceAnimal  {
 		
 	}
 
+	@Override
+	public void armazenarDados(Animal n) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void removerDados(Animal n) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void imprimirAnimal() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
