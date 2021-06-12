@@ -1,5 +1,10 @@
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
+<<<<<<< HEAD
+>>>>>>>=58361b276c255ddcb84a2d4df855a90b848c0ca9
+eclipse.preferences.version=1
+platformState=1620818603317
+=======
 >>>>>>>=5b2b7440aeb3b44edb7e749e6f7e0a2cafc7f8ca
 eclipse.preferences.version=1
 <<<<<<< HEAD
@@ -15,5 +20,6 @@ platformState=1620753884664
 >>>>>>> 5b2b7440aeb3b44edb7e749e6f7e0a2cafc7f8ca
 >>>>>>> 58361b276c255ddcb84a2d4df855a90b848c0ca9
 >>>>>>> 2eb6bb60391effa443c803ef85286cd7ddfce3e6
+>>>>>>> f7a05d02bc2209d90e08fea03626251cb05f738e
 quickStart=false
 tipsAndTricks=true
