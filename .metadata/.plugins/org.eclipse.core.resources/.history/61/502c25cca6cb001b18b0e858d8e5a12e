@@ -1,0 +1,76 @@
+package _AnimalExotico;
+
+import java.util.Scanner;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Animal animal = new Animal();
+		Insetos inseto = new Insetos();
+		
+		Scanner read = new Scanner(System.in);
+		String nome, nomeCientifico, tamanho, pesoMedio, longevidade, origem;
+		String curiosidade, habilidade;
+		
+		System.out.println("Digite o nome do seu animal");
+		nome = read.next();
+		
+		animal.setNome(nome);
+		
+		System.out.println("Digite o nome cientifico do seu animal");
+		nomeCientifico = read.next();
+		
+		animal.setNomeCientifico(nomeCientifico);
+		
+		System.out.println("Digite o tammanho do seu animal");
+		tamanho = read.next();
+		
+		animal.setTamanho(tamanho);
+		
+		System.out.println("Digite o peso médio do seu animal");
+		pesoMedio = read.next();
+		
+		animal.setPesoMedio(pesoMedio);
+		
+		System.out.println("Digite a longevidade do seu animal");
+		longevidade = read.next();
+		
+		animal.setLongevidade(longevidade);
+		
+		System.out.println("Digite a origem do seu animal");
+		origem = read.next();
+		
+		animal.setOrigem(origem);
+		
+		System.out.println("Digite uma curiosidade do seu animal");
+		curiosidade = read.next();
+		
+		inseto.setCuriosidade(curiosidade);
+		
+		System.out.println("Digite uma habilidade do seu animal");
+		habilidade = read.next();
+		
+		inseto.setHabilidade(habilidade);
+		
+		Animal animalDados = new Animal(nome,
+				nomeCientifico,
+				tamanho,
+				pesoMedio,
+				longevidade,
+				origem);
+		
+		Insetos insetosDados = new Insetos(curiosidade, habilidade);
+		
+		animal.addAnimal(animalDados);
+		inseto.addInsetos(insetosDados);
+
+		animal.printAnimal();
+		
+		inseto.printInsetos();
+		
+		
+	}
+
+}

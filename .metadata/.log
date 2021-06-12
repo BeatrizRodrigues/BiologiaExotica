@@ -2859,23 +2859,39 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< HEAD
 !SESSION 2021-06-12 11:46:30.751 -----------------------------------------------
 eclipse.buildId=4.19.0.I20210303-1800
 java.version=16
+=======
+!SESSION 2021-06-12 11:45:03.587 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=15.0.2
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.jface 2 0 2021-06-12 11:46:46.183
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2021-06-12 11:46:46.183
+=======
+!ENTRY org.eclipse.jface 2 0 2021-06-12 11:45:07.382
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-12 11:45:07.383
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@79e2606f,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@506b083,
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -2883,11 +2899,16 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@734cf881,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5eee3da9,
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.ui 2 0 2021-06-12 11:47:01.062
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\gusta'. If this is
@@ -2897,20 +2918,41 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !SESSION 2021-06-12 11:49:43.619 -----------------------------------------------
 eclipse.buildId=4.19.0.I20210303-1800
 java.version=16
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2021-06-12 11:45:10.068
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\igort'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-06-12 11:46:51.909 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=15.0.2
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.jface 2 0 2021-06-12 11:49:58.313
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2021-06-12 11:49:58.313
+=======
+!ENTRY org.eclipse.jface 2 0 2021-06-12 11:46:57.334
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-12 11:46:57.334
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2acb1264,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36cf16a6,
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -2918,11 +2960,16 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30a01dd8,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3dd750ba,
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.ui 2 0 2021-06-12 11:50:10.047
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\gusta'. If this is
@@ -2967,20 +3014,57 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !SESSION 2021-06-12 11:59:59.532 -----------------------------------------------
 eclipse.buildId=4.19.0.I20210303-1800
 java.version=16
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2021-06-12 11:47:00.178
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\igort'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-06-12 15:30:04.804
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+	at org.eclipse.jdt.internal.compiler.util.HashtableOfObject.<init>(HashtableOfObject.java:41)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readCategoryTable(DiskIndex.java:684)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeCategory(DiskIndex.java:487)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeCategories(DiskIndex.java:479)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:581)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:216)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:988)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1030)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:709)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:397)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+!SESSION 2021-06-12 15:30:13.460 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=15.0.2
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.jface 2 0 2021-06-12 12:00:06.716
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2021-06-12 12:00:06.716
+=======
+!ENTRY org.eclipse.jface 2 0 2021-06-12 15:30:17.136
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-12 15:30:17.136
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@8d810f2,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3573e19d,
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -2988,11 +3072,16 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@537b3be1,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c1dd18,
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.ui 2 0 2021-06-12 12:00:13.335
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\gusta'. If this is
@@ -3002,20 +3091,41 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !SESSION 2021-06-12 12:03:53.798 -----------------------------------------------
 eclipse.buildId=4.19.0.I20210303-1800
 java.version=16
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2021-06-12 15:30:20.317
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\igort'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-06-12 13:39:40.884 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=15.0.2
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.jface 2 0 2021-06-12 12:04:44.965
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2021-06-12 12:04:44.966
+=======
+!ENTRY org.eclipse.jface 2 0 2021-06-12 13:39:50.402
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-12 13:39:50.402
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f68e4e8,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@506b083,
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -3023,11 +3133,16 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47b4ac83,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5eee3da9,
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.ui 2 0 2021-06-12 12:04:50.335
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\gusta'. If this is
@@ -3037,20 +3152,41 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !SESSION 2021-06-12 12:17:56.118 -----------------------------------------------
 eclipse.buildId=4.19.0.I20210303-1800
 java.version=16
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2021-06-12 13:39:57.147
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\eduar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-06-12 13:44:20.150 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=15.0.2
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.jface 2 0 2021-06-12 12:18:05.258
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2021-06-12 12:18:05.258
+=======
+!ENTRY org.eclipse.jface 2 0 2021-06-12 13:45:16.495
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-12 13:45:16.495
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47b4ac83,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@68f9e807,
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -3058,11 +3194,16 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@351ede23,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23708f14,
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.egit.ui 2 0 2021-06-12 12:18:11.048
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\gusta'. If this is
@@ -3139,3 +3280,456 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2021-06-12 13:45:23.647
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\eduar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10000 2021-06-12 13:48:48.604
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: The markup in the document preceding the root element must be well-formed.
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.createCoreException(RefactoringHistoryManager.java:146)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:826)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.processHistoryNotification(RefactoringHistorySerializer.java:114)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.historyNotification(RefactoringHistorySerializer.java:76)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.run(RefactoringHistoryService.java:582)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.fireRefactoringHistoryEvent(RefactoringHistoryService.java:573)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.performHistoryNotification(RefactoringHistoryService.java:922)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.lambda$0(RefactoringHistoryService.java:366)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory$2.run(DefaultOperationHistory.java:876)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyListeners(DefaultOperationHistory.java:865)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyDone(DefaultOperationHistory.java:931)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.closeOperation(DefaultOperationHistory.java:1219)
+	at org.eclipse.ltk.internal.core.refactoring.UndoManager2.changePerformed(UndoManager2.java:167)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:862)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.getCachedDocument(RefactoringHistoryManager.java:871)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:787)
+	... 23 more
+!SUBENTRY 1 org.eclipse.ltk.core.refactoring 4 10006 2021-06-12 13:48:48.606
+!MESSAGE The markup in the document preceding the root element must be well-formed.
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:862)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.getCachedDocument(RefactoringHistoryManager.java:871)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:787)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.processHistoryNotification(RefactoringHistorySerializer.java:114)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.historyNotification(RefactoringHistorySerializer.java:76)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.run(RefactoringHistoryService.java:582)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.fireRefactoringHistoryEvent(RefactoringHistoryService.java:573)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.performHistoryNotification(RefactoringHistoryService.java:922)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.lambda$0(RefactoringHistoryService.java:366)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory$2.run(DefaultOperationHistory.java:876)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyListeners(DefaultOperationHistory.java:865)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyDone(DefaultOperationHistory.java:931)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.closeOperation(DefaultOperationHistory.java:1219)
+	at org.eclipse.ltk.internal.core.refactoring.UndoManager2.changePerformed(UndoManager2.java:167)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10000 2021-06-12 13:50:58.062
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: The markup in the document preceding the root element must be well-formed.
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.createCoreException(RefactoringHistoryManager.java:146)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:826)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.processHistoryNotification(RefactoringHistorySerializer.java:114)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.historyNotification(RefactoringHistorySerializer.java:76)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.run(RefactoringHistoryService.java:582)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.fireRefactoringHistoryEvent(RefactoringHistoryService.java:573)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.performHistoryNotification(RefactoringHistoryService.java:922)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.lambda$0(RefactoringHistoryService.java:366)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory$2.run(DefaultOperationHistory.java:876)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyListeners(DefaultOperationHistory.java:865)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyDone(DefaultOperationHistory.java:931)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.closeOperation(DefaultOperationHistory.java:1219)
+	at org.eclipse.ltk.internal.core.refactoring.UndoManager2.changePerformed(UndoManager2.java:167)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:862)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.getCachedDocument(RefactoringHistoryManager.java:871)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:787)
+	... 23 more
+!SUBENTRY 1 org.eclipse.ltk.core.refactoring 4 10006 2021-06-12 13:50:58.063
+!MESSAGE The markup in the document preceding the root element must be well-formed.
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:862)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.getCachedDocument(RefactoringHistoryManager.java:871)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:787)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.processHistoryNotification(RefactoringHistorySerializer.java:114)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.historyNotification(RefactoringHistorySerializer.java:76)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.run(RefactoringHistoryService.java:582)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.fireRefactoringHistoryEvent(RefactoringHistoryService.java:573)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.performHistoryNotification(RefactoringHistoryService.java:922)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.lambda$0(RefactoringHistoryService.java:366)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory$2.run(DefaultOperationHistory.java:876)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyListeners(DefaultOperationHistory.java:865)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyDone(DefaultOperationHistory.java:931)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.closeOperation(DefaultOperationHistory.java:1219)
+	at org.eclipse.ltk.internal.core.refactoring.UndoManager2.changePerformed(UndoManager2.java:167)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10000 2021-06-12 14:19:55.650
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: The markup in the document preceding the root element must be well-formed.
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.createCoreException(RefactoringHistoryManager.java:146)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:826)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.processHistoryNotification(RefactoringHistorySerializer.java:114)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.historyNotification(RefactoringHistorySerializer.java:76)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.run(RefactoringHistoryService.java:582)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.fireRefactoringHistoryEvent(RefactoringHistoryService.java:573)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.performHistoryNotification(RefactoringHistoryService.java:922)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.lambda$0(RefactoringHistoryService.java:366)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory$2.run(DefaultOperationHistory.java:876)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyListeners(DefaultOperationHistory.java:865)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyDone(DefaultOperationHistory.java:931)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.closeOperation(DefaultOperationHistory.java:1219)
+	at org.eclipse.ltk.internal.core.refactoring.UndoManager2.changePerformed(UndoManager2.java:167)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:862)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.getCachedDocument(RefactoringHistoryManager.java:871)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:787)
+	... 23 more
+!SUBENTRY 1 org.eclipse.ltk.core.refactoring 4 10006 2021-06-12 14:19:55.651
+!MESSAGE The markup in the document preceding the root element must be well-formed.
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:862)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.getCachedDocument(RefactoringHistoryManager.java:871)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:787)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.processHistoryNotification(RefactoringHistorySerializer.java:114)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.historyNotification(RefactoringHistorySerializer.java:76)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.run(RefactoringHistoryService.java:582)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.fireRefactoringHistoryEvent(RefactoringHistoryService.java:573)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.performHistoryNotification(RefactoringHistoryService.java:922)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.lambda$0(RefactoringHistoryService.java:366)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory$2.run(DefaultOperationHistory.java:876)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyListeners(DefaultOperationHistory.java:865)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyDone(DefaultOperationHistory.java:931)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.closeOperation(DefaultOperationHistory.java:1219)
+	at org.eclipse.ltk.internal.core.refactoring.UndoManager2.changePerformed(UndoManager2.java:167)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10000 2021-06-12 14:50:29.641
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: The markup in the document preceding the root element must be well-formed.
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.createCoreException(RefactoringHistoryManager.java:146)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:826)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.processHistoryNotification(RefactoringHistorySerializer.java:114)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.historyNotification(RefactoringHistorySerializer.java:76)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.run(RefactoringHistoryService.java:582)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.fireRefactoringHistoryEvent(RefactoringHistoryService.java:573)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.performHistoryNotification(RefactoringHistoryService.java:922)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.lambda$0(RefactoringHistoryService.java:366)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory$2.run(DefaultOperationHistory.java:876)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyListeners(DefaultOperationHistory.java:865)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyDone(DefaultOperationHistory.java:931)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.closeOperation(DefaultOperationHistory.java:1219)
+	at org.eclipse.ltk.internal.core.refactoring.UndoManager2.changePerformed(UndoManager2.java:167)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:862)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.getCachedDocument(RefactoringHistoryManager.java:871)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:787)
+	... 23 more
+!SUBENTRY 1 org.eclipse.ltk.core.refactoring 4 10006 2021-06-12 14:50:29.642
+!MESSAGE The markup in the document preceding the root element must be well-formed.
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:862)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.getCachedDocument(RefactoringHistoryManager.java:871)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:787)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.processHistoryNotification(RefactoringHistorySerializer.java:114)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.historyNotification(RefactoringHistorySerializer.java:76)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.run(RefactoringHistoryService.java:582)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.fireRefactoringHistoryEvent(RefactoringHistoryService.java:573)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.performHistoryNotification(RefactoringHistoryService.java:922)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.lambda$0(RefactoringHistoryService.java:366)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory$2.run(DefaultOperationHistory.java:876)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyListeners(DefaultOperationHistory.java:865)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyDone(DefaultOperationHistory.java:931)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.closeOperation(DefaultOperationHistory.java:1219)
+	at org.eclipse.ltk.internal.core.refactoring.UndoManager2.changePerformed(UndoManager2.java:167)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10000 2021-06-12 14:57:13.434
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: The markup in the document preceding the root element must be well-formed.
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.createCoreException(RefactoringHistoryManager.java:146)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:826)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.processHistoryNotification(RefactoringHistorySerializer.java:114)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.historyNotification(RefactoringHistorySerializer.java:76)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.run(RefactoringHistoryService.java:582)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.fireRefactoringHistoryEvent(RefactoringHistoryService.java:573)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.performHistoryNotification(RefactoringHistoryService.java:922)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.lambda$0(RefactoringHistoryService.java:366)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory$2.run(DefaultOperationHistory.java:876)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyListeners(DefaultOperationHistory.java:865)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyDone(DefaultOperationHistory.java:931)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.closeOperation(DefaultOperationHistory.java:1219)
+	at org.eclipse.ltk.internal.core.refactoring.UndoManager2.changePerformed(UndoManager2.java:167)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:862)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.getCachedDocument(RefactoringHistoryManager.java:871)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:787)
+	... 23 more
+!SUBENTRY 1 org.eclipse.ltk.core.refactoring 4 10006 2021-06-12 14:57:13.435
+!MESSAGE The markup in the document preceding the root element must be well-formed.
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:862)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.getCachedDocument(RefactoringHistoryManager.java:871)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:787)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.processHistoryNotification(RefactoringHistorySerializer.java:114)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.historyNotification(RefactoringHistorySerializer.java:76)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.run(RefactoringHistoryService.java:582)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.fireRefactoringHistoryEvent(RefactoringHistoryService.java:573)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.performHistoryNotification(RefactoringHistoryService.java:922)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.lambda$0(RefactoringHistoryService.java:366)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory$2.run(DefaultOperationHistory.java:876)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyListeners(DefaultOperationHistory.java:865)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyDone(DefaultOperationHistory.java:931)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.closeOperation(DefaultOperationHistory.java:1219)
+	at org.eclipse.ltk.internal.core.refactoring.UndoManager2.changePerformed(UndoManager2.java:167)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28

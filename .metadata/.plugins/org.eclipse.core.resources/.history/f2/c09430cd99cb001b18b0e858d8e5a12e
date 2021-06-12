@@ -1,0 +1,19 @@
+package _AnimalExotico;
+
+public class Dados  {
+	
+	// Atributos
+	
+	public String curiosidade;
+	public String habilidade;
+	
+	/*
+	 * Colocar os dados dos animais pesquisados.
+	 */
+	
+	// Construtor
+
+	
+	
+
+}
