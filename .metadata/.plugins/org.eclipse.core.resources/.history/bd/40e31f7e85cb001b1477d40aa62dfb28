@@ -28,7 +28,6 @@ public String getTamanhoBI() {
 public void setTamanhoBI(String tamanhoBI) {
 	this.tamanhoBI = tamanhoBI;
 }
-
 @Override
 public void especie(String especie) {
 	// TODO Auto-generated method stub
@@ -64,4 +63,5 @@ public void origem(String origem) {
 	// TODO Auto-generated method stub
 	
 }
+
 }
