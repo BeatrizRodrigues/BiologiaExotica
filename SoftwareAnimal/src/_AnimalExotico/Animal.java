@@ -6,6 +6,42 @@ import Animal.Animal;
 
 import java.util.ArrayList;
 
+<<<<<<< HEAD
+    // Atributo
+    
+    protected String especie;
+    
+    protected String nomeCientifico;
+    
+    protected String nome;
+    
+    protected Double pesoMedio;
+    
+    protected String longevidade;
+
+    protected String origem; // (pais/estado)
+    
+    // Construtor
+    
+    public Animal(String especie, String nomeCientifico,
+            Double pesoMedio,String longevidade, String origem) {
+        super();
+        this.especie = especie;
+        this.nomeCientifico = nomeCientifico;
+        this.pesoMedio = pesoMedio;
+        this.longevidade = longevidade;
+        this.origem = origem;
+    }
+    
+    // Metodos
+    
+    abstract public void especie(String especie);
+    abstract public void nomeCientifico(String nomeCientifico);
+    abstract public void nome(String nome);
+    abstract public void pesoMedio(String pesoMedio);
+    abstract public void longevidade(String Longevidade);
+    abstract public void origem(String origem);
+=======
 public class Animal {
 	private String nome;
 	private String tamanho;
@@ -55,6 +91,7 @@ public class Animal {
 	public void setNomeCientifico(String nomeCientifico) {
 		this.nomeCientifico = nomeCientifico;
 	}
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 
 
 	public String getPesoMedio() {

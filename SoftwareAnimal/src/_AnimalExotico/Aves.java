@@ -1,5 +1,12 @@
 package _AnimalExotico;
 
+<<<<<<< HEAD
+public class Aves extends Animal {
+	
+protected String velocidadeMax;
+protected String ComprimentoDpassaro;
+
+=======
 public class Aves extends Animal implements InterfaceAnimal {
 
 	// Adicionando os métodos da interface
@@ -39,5 +46,6 @@ public class Aves extends Animal implements InterfaceAnimal {
 		// TODO Auto-generated method stub
 		
 	}
+>>>>>>> 9d15dbfafb4866a5c39837f15346af4f11e8de28
 
 }
