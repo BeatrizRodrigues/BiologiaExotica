@@ -12,21 +12,4 @@ public AveWilson(String especie, String nomeCientífico,
 	this.velocidadeVo = velocidadeVo;
 	this.tamanhoBico = tamanhoBico;	
 }
-
-public String getVelocidadeVo() {
-	return velocidadeVo;
-}
-
-public void setVelocidadeVo(String velocidadeVo) {
-	this.velocidadeVo = velocidadeVo;
-}
-
-public String getTamanhoBico() {
-	return tamanhoBico;
-}
-
-public void setTamanhoBico(String tamanhoBico) {
-	this.tamanhoBico = tamanhoBico;
-}
-
 }
