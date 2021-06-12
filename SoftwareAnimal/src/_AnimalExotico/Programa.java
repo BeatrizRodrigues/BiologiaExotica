@@ -7,6 +7,7 @@ public class Programa {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+<<<<<<< HEAD
 		Insetos inseto = new Insetos();
 		
 		Scanner read = new Scanner(System.in);
@@ -77,6 +78,13 @@ public class Programa {
 		inseto.printInsetos();
 		
 		
+=======
+	
+	
+	
+			
+			
+>>>>>>> 2d6a2e31163dadab9174888eb973082524d01939
 	}
 
 }
