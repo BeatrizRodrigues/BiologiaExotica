@@ -1,0 +1,70 @@
+package _AnimalExotico;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class Animal {
+
+	    // Atributo
+	    
+		protected String especie;
+		protected String nomeCientifico;
+		protected String nome;
+		protected Double pesoMedio;
+		protected String longevidade;
+	
+	    protected String origem; // (pais/estado)
+	     // Construtor
+	 
+	    public Animal(String especie, String nomeCientifico,
+	            Double pesoMedio,String longevidade, String origem) {
+	        super();
+	        this.especie = especie;
+	        this.nomeCientifico = nomeCientifico;
+	        this.pesoMedio = pesoMedio;
+	        this.longevidade = longevidade;
+	        this.origem = origem;
+	    }
+
+	
+		public String getPesoMedio() {
+			return pesoMedio;
+		}
+	
+	
+		public void setPesoMedio(String pesoMedio) {
+			this.pesoMedio = pesoMedio;
+		}
+	
+	
+		public String getNomeCient�fico() {
+			return nomeCientifico;
+		}
+		public void setNomeCient�fico(String nomeCient�fico) {
+			this.nomeCientifico = nomeCient�fico;
+		}
+		public Double getVelocidadeMaxima() {
+			return velocidadeMaxima;
+		}
+		public void setVelocidadeMaxima(Double velocidadeMaxima) {
+			this.velocidadeMaxima = velocidadeMaxima;
+		}
+		public String getLongevidade() {
+			return longevidade;
+		}
+		public void setLongevidade(String longevidade) {
+			this.longevidade = longevidade;
+		}
+		public String getOrigem() {
+			return origem;
+		}
+		public void setOrigem(String origem) {
+			this.origem = origem;
+		}
+		
+		abstract void armazenarDados(Animal n);
+		abstract void removerDados(Animal n);
+		//abstract void atualizarDados(String n);
+		abstract void imprimir();
+	}
+}

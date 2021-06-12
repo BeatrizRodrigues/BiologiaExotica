@@ -3,41 +3,6 @@ package _AnimalExotico;
 import java.util.List;
 import java.util.ArrayList;
 
-
-    // Atributo
-    
-    protected String especie;
-    
-    protected String nomeCientifico;
-    
-    protected String nome;
-    
-    protected Double pesoMedio;
-    
-    protected String longevidade;
-
-    protected String origem; // (pais/estado)
-    
-    // Construtor
-    
-    public Animal(String especie, String nomeCientifico,
-            Double pesoMedio,String longevidade, String origem) {
-        super();
-        this.especie = especie;
-        this.nomeCientifico = nomeCientifico;
-        this.pesoMedio = pesoMedio;
-        this.longevidade = longevidade;
-        this.origem = origem;
-    }
-    
-    // Metodos
-    
-    abstract public void especie(String especie);
-    abstract public void nomeCientifico(String nomeCientifico);
-    abstract public void nome(String nome);
-    abstract public void pesoMedio(String pesoMedio);
-    abstract public void longevidade(String Longevidade);
-    abstract public void origem(String origem);
 public class Animal {
 
 	private String tamanho;
@@ -50,7 +15,6 @@ public class Animal {
 	// Construtor
 	
 	public Animal() {}
-	
 	public Animal(String tamanho, String nomeCientifico, String nome,
 			String  pesoMedio, String  longevidade, String origem) {
 		super();
@@ -62,7 +26,6 @@ public class Animal {
 		this.origem = origem;
 	}
 	
-
 	// Get e Set 
 	
 	public String getTamanho() {
@@ -122,15 +85,12 @@ public class Animal {
 	public void addAnimal(Animal animal) {
 						
 		listAnimal.add(animal);
-
 	}
-	
 	// Metodo remover
 	
 	public void removeAnimal(Animal animal) {
 		
 		listAnimal.remove(animal);
-		
 	}
 	
 	public void printAnimal() {
@@ -140,16 +100,8 @@ public class Animal {
 		for(int i = 0; i<listAnimal.size(); i++) {
 			
 			System.out.println(
-					"\n\t" + listAnimal.get(i).getNome() + " "
-					+ listAnimal.get(i).getNomeCientifico() + " "
-					+ listAnimal.get(i).getOrigem() + " "
-					+ listAnimal.get(i).getTamanho() + " "
-					+ listAnimal.get(i).getPesoMedio() + " "
-					+ listAnimal.get(i).getLongevidade()
+					"\n\t" + listAnimal.get(i).getNome() + " " + listAnimal.get(i).getNomeCientifico() + " " + listAnimal.get(i).getOrigem() + " " + listAnimal.get(i).getTamanho() + " " + listAnimal.get(i).getPesoMedio() + " " + listAnimal.get(i).getLongevidade()
 					);
-			
 		}
-
 	}
-
 }
