@@ -725,23 +725,37 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.egit.core.Activator.g
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 <<<<<<< HEAD
+<<<<<<< HEAD
 !SESSION 2021-06-10 19:15:25.345 -----------------------------------------------
+=======
+!SESSION 2021-06-12 10:18:08.975 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=16
+>>>>>>> 58361b276c255ddcb84a2d4df855a90b848c0ca9
 =======
 >>>>>>> cce482b8b1e1958a6eb49447378fceab41e4bb63
 !SESSION 2021-06-10 19:28:36.115 -----------------------------------------------
 >>>>>>> 5b2b7440aeb3b44edb7e749e6f7e0a2cafc7f8ca
 eclipse.buildId=4.19.0.I20210303-1800
 java.version=15.0.2
+>>>>>>> 5b2b7440aeb3b44edb7e749e6f7e0a2cafc7f8ca
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2021-06-10 19:16:06.556
 !MESSAGE Unable to load resource file:/C:/Users/eduar/OneDrive/Área%20de%20Trabalho/Teste/BiologiaExotica/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/eduar/OneDrive/Área%20de%20Trabalho/Teste/BiologiaExotica/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Users/eduar/OneDrive/Área%20de%20Trabalho/Teste/BiologiaExotica/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+=======
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-06-12 10:18:43.998
+!MESSAGE Unable to load resource file:/C:/Users/gusta/Desktop/Teste%20git/BiologiaExotica/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/gusta/Desktop/Teste%20git/BiologiaExotica/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Users/gusta/Desktop/Teste%20git/BiologiaExotica/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+>>>>>>> 58361b276c255ddcb84a2d4df855a90b848c0ca9
 =======
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2021-06-10 19:28:39.423
 !MESSAGE Unable to load resource file:/C:/Users/igort/Documents/Generation_Brasil/Projeto%20bloco%20I/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
@@ -767,6 +781,16 @@ org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException:
 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<<<<<<< HEAD
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/gusta/Desktop/Teste%20git/BiologiaExotica/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Users/gusta/Desktop/Teste%20git/BiologiaExotica/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+=======
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
@@ -799,6 +823,11 @@ Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/igort/Documents
 	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+<<<<<<< HEAD
+	... 24 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-06-12 10:18:44.003
+=======
 	... 23 more
 
 <<<<<<< HEAD
@@ -823,6 +852,19 @@ java.lang.Exception
 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<<<<<<< HEAD
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jface 2 0 2021-06-12 10:18:48.090
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-12 10:18:48.090
+=======
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
@@ -845,7 +887,11 @@ Binding(CTRL+SHIFT+T,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
 <<<<<<< HEAD
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ef60c02,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@248b2b61,
+>>>>>>> 58361b276c255ddcb84a2d4df855a90b848c0ca9
 =======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@611a2d82,
 >>>>>>> 5b2b7440aeb3b44edb7e749e6f7e0a2cafc7f8ca
@@ -857,7 +903,11 @@ Binding(CTRL+SHIFT+T,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
 <<<<<<< HEAD
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d9d8e46,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b61e97,
+>>>>>>> 58361b276c255ddcb84a2d4df855a90b848c0ca9
 =======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6774f264,
 >>>>>>> 5b2b7440aeb3b44edb7e749e6f7e0a2cafc7f8ca
@@ -865,6 +915,7 @@ Binding(CTRL+SHIFT+T,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 !ENTRY org.eclipse.egit.ui 2 0 2021-06-10 19:16:22.099
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
@@ -993,6 +1044,17 @@ java.io.FileNotFoundException: File C:\Program Files\Java\jdk-16\lib\ct.sym does
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 =======
+!ENTRY org.eclipse.egit.ui 2 0 2021-06-12 10:18:58.405
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gusta'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-06-12 10:23:52.329 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=16
+>>>>>>> 58361b276c255ddcb84a2d4df855a90b848c0ca9
+=======
 !ENTRY org.eclipse.egit.ui 2 0 2021-06-10 19:28:45.469
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\igort'. If this is
@@ -1002,20 +1064,31 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !SESSION 2021-06-12 10:17:21.391 -----------------------------------------------
 eclipse.buildId=4.19.0.I20210303-1800
 java.version=15.0.2
+>>>>>>> 5b2b7440aeb3b44edb7e749e6f7e0a2cafc7f8ca
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.jface 2 0 2021-06-12 10:24:08.740
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-12 10:24:08.740
+=======
 !ENTRY org.eclipse.jface 2 0 2021-06-12 10:17:33.531
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2021-06-12 10:17:33.531
+>>>>>>> 5b2b7440aeb3b44edb7e749e6f7e0a2cafc7f8ca
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+<<<<<<< HEAD
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a890fdd,
+=======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27b490de,
+>>>>>>> 5b2b7440aeb3b44edb7e749e6f7e0a2cafc7f8ca
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -1023,11 +1096,23 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+<<<<<<< HEAD
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@56299b0e,
+=======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36cf16a6,
+>>>>>>> 5b2b7440aeb3b44edb7e749e6f7e0a2cafc7f8ca
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.egit.ui 2 0 2021-06-12 10:24:16.027
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gusta'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+=======
 !ENTRY org.eclipse.egit.ui 2 0 2021-06-12 10:17:35.684
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\igort'. If this is
@@ -1162,6 +1247,7 @@ Contains: Resource is out of sync with the file system: '/SoftwareAnimal/src/Tes
 !SUBENTRY 3 org.eclipse.core.resources 1 4 2021-06-12 10:18:52.397
 !MESSAGE Resource is out of sync with the file system: '/SoftwareAnimal/src/Test'.
 >>>>>>> 5b2b7440aeb3b44edb7e749e6f7e0a2cafc7f8ca
+<<<<<<< HEAD
 !SESSION 2021-06-12 10:34:21.333 -----------------------------------------------
 eclipse.buildId=4.19.0.I20210303-1800
 java.version=15.0.2
@@ -1562,3 +1648,5 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+=======
+>>>>>>> 58361b276c255ddcb84a2d4df855a90b848c0ca9

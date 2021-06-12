@@ -1,0 +1,8 @@
+package Test;
+
+public class AveWilson extends Animal {
+public String velocidadeVo;
+public String  tamanhoBico;
+
+
+}
