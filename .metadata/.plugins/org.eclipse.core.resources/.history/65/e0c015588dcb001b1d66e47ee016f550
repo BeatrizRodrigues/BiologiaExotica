@@ -2,31 +2,27 @@ package _AnimalExotico;
 
 public abstract class Animal {
 
-	
-
-	
-	
-	
 	// Atributo
 	
-	protected String nome;
-	protected Double pesoMedio;
-	protected String classe;
-	protected String longevidade;
-	protected String origem;
+	public String especie;
+	public String nomeCientífico;
+	public Double pesoMedio;
+	public String classe;
+	public String longevidade;
+	public String origem; // (pais/estado)
 	
 	// Construtor
 	
 	public Animal(String especie, String nomeCientífico,
 			Double pesoMedio, String classe,
-			String longevidade, String origem) 
-	{
-			super();
-			this.nome = nome;
-			this.pesoMedio = pesoMedio;
-			this.classe = classe;
-			this.longevidade = longevidade;
-			this.origem = origem;
+			String longevidade, String origem) {
+		super();
+		this.especie = especie;
+		this.nomeCientífico = nomeCientífico;
+		this.pesoMedio = pesoMedio;
+		this.classe = classe;
+		this.longevidade = longevidade;
+		this.origem = origem;
 	}
 	
 	// Metodos
@@ -37,11 +33,6 @@ public abstract class Animal {
 	abstract public void classe(String classe);
 	abstract public void longevidade(String Longevidade);
 	abstract public void origem(String origem);
-	
-	abstract public void Add();
-	abstract public void Mostrar();
-	abstract public void Alterar();
-	
 
 
 }
