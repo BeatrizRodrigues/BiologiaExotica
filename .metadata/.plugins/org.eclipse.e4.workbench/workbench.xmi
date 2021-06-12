@@ -2,7 +2,7 @@
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_NFDk0co7EeuHhoIxjJWrVw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_NFDk0so7EeuHhoIxjJWrVw" bindingContexts="_NFDk28o7EeuHhoIxjJWrVw">
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Tardigaro.java&quot; tooltip=&quot;SoftwareAnimal/src/Test/Tardigaro.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftwareAnimal/src/Test/Tardigaro.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Menu.java&quot; tooltip=&quot;SoftwareAnimal/src/Test/Menu.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftwareAnimal/src/Test/Menu.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GlaucusAtlanticus.java&quot; tooltip=&quot;SoftwareAnimal/src/Test/GlaucusAtlanticus.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftwareAnimal/src/Test/GlaucusAtlanticus.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DiaboEspinhoso.java&quot; tooltip=&quot;SoftwareAnimal/src/Test/DiaboEspinhoso.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftwareAnimal/src/Test/DiaboEspinhoso.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AveWilson.java&quot; tooltip=&quot;SoftwareAnimal/src/Test/AveWilson.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftwareAnimal/src/Test/AveWilson.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Animal.java&quot; tooltip=&quot;SoftwareAnimal/src/Test/Animal.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftwareAnimal/src/Test/Animal.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_NFDk0so7EeuHhoIxjJWrVw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_NPCAMso7EeuHhoIxjJWrVw" label="%trimmedwindow.label.eclipseSDK" x="104" y="104" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_NFDk0so7EeuHhoIxjJWrVw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_NPCAMso7EeuHhoIxjJWrVw" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -100,7 +100,7 @@
               </children>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_NWD1Sco7EeuHhoIxjJWrVw" containerData="7500" selectedElement="_NWD1Sso7EeuHhoIxjJWrVw">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_NWD1Sso7EeuHhoIxjJWrVw" containerData="7500" selectedElement="_NWD1S8o7EeuHhoIxjJWrVw" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_NWD1Sso7EeuHhoIxjJWrVw" containerData="8250" selectedElement="_NWD1S8o7EeuHhoIxjJWrVw" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_NWD1S8o7EeuHhoIxjJWrVw" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_NV1LwMo7EeuHhoIxjJWrVw"/>
                 <children xsi:type="basic:PartStack" xmi:id="_NWD1TMo7EeuHhoIxjJWrVw" elementId="right" containerData="2500" selectedElement="_NWD1Tco7EeuHhoIxjJWrVw">
                   <tags>org.eclipse.e4.secondaryNavigationStack</tags>
@@ -122,7 +122,7 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_NWD1Uco7EeuHhoIxjJWrVw" elementId="bottom" containerData="2500" selectedElement="_NWD1Uso7EeuHhoIxjJWrVw">
+              <children xsi:type="basic:PartStack" xmi:id="_NWD1Uco7EeuHhoIxjJWrVw" elementId="bottom" containerData="1750" selectedElement="_NWD1Uso7EeuHhoIxjJWrVw">
                 <tags>org.eclipse.e4.secondaryDataStack</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_NWD1Uso7EeuHhoIxjJWrVw" elementId="org.eclipse.ui.views.ProblemView" ref="_NV9uoso7EeuHhoIxjJWrVw" closeable="true">
                   <tags>View</tags>
@@ -222,14 +222,14 @@
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_xiXxwMuAEeuWqoxGPX5uIw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Menu.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Menu.java&quot; partName=&quot;Menu.java&quot; title=&quot;Menu.java&quot; tooltip=&quot;SoftwareAnimal/src/_AnimalExotico/Menu.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftwareAnimal/src/_AnimalExotico/Menu.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_xozw8MuAEeuWqoxGPX5uIw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Tardigaro.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Tardigaro.java&quot; partName=&quot;Tardigaro.java&quot; title=&quot;Tardigaro.java&quot; tooltip=&quot;SoftwareAnimal/src/_AnimalExotico/Tardigaro.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftwareAnimal/src/_AnimalExotico/Tardigaro.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;418&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_xozw8MuAEeuWqoxGPX5uIw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Tardigaro.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Tardigaro.java&quot; partName=&quot;Tardigaro.java&quot; title=&quot;Tardigaro.java&quot; tooltip=&quot;SoftwareAnimal/src/_AnimalExotico/Tardigaro.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftwareAnimal/src/_AnimalExotico/Tardigaro.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_xiXxwMuAEeuWqoxGPX5uIw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Menu.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Menu.java&quot; partName=&quot;Menu.java&quot; title=&quot;Menu.java&quot; tooltip=&quot;SoftwareAnimal/src/_AnimalExotico/Menu.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftwareAnimal/src/_AnimalExotico/Menu.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;147&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -365,7 +365,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NQUZoMo7EeuHhoIxjJWrVw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_jGYpUMuAEeuWqoxGPX5uIw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_NFcmgco7EeuHhoIxjJWrVw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_hjQF0MuEEeuW29y1XBsqww" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_NFcmgco7EeuHhoIxjJWrVw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NQUZoco7EeuHhoIxjJWrVw" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -396,7 +396,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NQVAsMo7EeuHhoIxjJWrVw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_jGbFksuAEeuWqoxGPX5uIw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_NFb_YMo7EeuHhoIxjJWrVw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_hjR7AsuEEeuW29y1XBsqww" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_NFb_YMo7EeuHhoIxjJWrVw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NQVAsco7EeuHhoIxjJWrVw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2180,7 +2180,7 @@
   <addons xmi:id="_NFDk58o7EeuHhoIxjJWrVw" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_NFEL4Mo7EeuHhoIxjJWrVw" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_NFKSgMo7EeuHhoIxjJWrVw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_i9fzEMuAEeuWqoxGPX5uIw" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_hXloYcuEEeuW29y1XBsqww" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_NFYU8Mo7EeuHhoIxjJWrVw" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_NFYU8co7EeuHhoIxjJWrVw" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
