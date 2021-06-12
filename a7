@@ -1,0 +1,273 @@
+[33mcommit 2d6a2e31163dadab9174888eb973082524d01939[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 7f83004 8e48303
+Author: Eduardo Torquato <eduardotorquato78@gmail.com>
+Date:   Sat Jun 12 13:38:22 2021 -0300
+
+    a
+
+[33mcommit 7f83004cfbd8bbd808d80327b1811dc82d886902[m
+Author: Eduardo Torquato <eduardotorquato78@gmail.com>
+Date:   Sat Jun 12 13:36:11 2021 -0300
+
+    A1
+
+[33mcommit 8e483033075cf50e237584189fc17520f1cf6644[m
+Merge: 5abbbc4 67db4f7
+Author: Day-Namite <daisybarbosa.p@gmail.com>
+Date:   Sat Jun 12 12:02:31 2021 -0300
+
+    Iniciando Work
+
+[33mcommit 5abbbc4ed5ad9d683857d0c8ba1ecfb16e7719d0[m
+Author: Day-Namite <daisybarbosa.p@gmail.com>
+Date:   Sat Jun 12 11:55:18 2021 -0300
+
+    Iniciando Trabalhos
+
+[33mcommit 67db4f7a36d269eaa102f46c025c064385719d3f[m
+Merge: 06ece6c f7a05d0
+Author: Eduardo Torquato <eduardotorquato78@gmail.com>
+Date:   Sat Jun 12 11:51:54 2021 -0300
+
+    Iniciando os trabalhos
+
+[33mcommit 06ece6cb6c43f41c0a50b0d75a7f5ce65580b7b8[m
+Author: Eduardo Torquato <eduardotorquato78@gmail.com>
+Date:   Sat Jun 12 11:49:50 2021 -0300
+
+    Edu
+
+[33mcommit f7a05d02bc2209d90e08fea03626251cb05f738e[m
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Sat Jun 12 11:46:12 2021 -0300
+
+    Criando a class Dados
+
+[33mcommit dddd00496ef9f30f3f8c9c9b94498eb95ca14382[m
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Sat Jun 12 11:43:59 2021 -0300
+
+    Montando as Class Dos tipos dos animais
+
+[33mcommit 345c55189b758a0855a9d2a3d5862a49e3dce7d2[m
+Merge: cedea8e 2717ea8
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Sat Jun 12 11:37:54 2021 -0300
+
+    atualizando 4
+
+[33mcommit cedea8ef22bdac553d666d060793a321a35b525f[m
+Merge: 45b1396 2eb6bb6
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Sat Jun 12 11:01:02 2021 -0300
+
+    atualizado 3
+
+[33mcommit 2717ea8bb6d8842255f5c7fd884d89065560b1d9[m
+Merge: 968d2d4 2eb6bb6
+Author: Dourado8083 <gustavo.dourado.br@gmail.com>
+Date:   Sat Jun 12 10:58:21 2021 -0300
+
+    Wilson_passaro
+
+[33mcommit 45b139684b460bbda5ce9fdc14c0f3d9ae250070[m
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Sat Jun 12 10:57:11 2021 -0300
+
+    Atualizado 2
+
+[33mcommit 968d2d407fd8d01c9e29bfbbdb39e83a54e567ad[m
+Author: Dourado8083 <gustavo.dourado.br@gmail.com>
+Date:   Sat Jun 12 10:57:04 2021 -0300
+
+    Wilson passaro
+
+[33mcommit 2eb6bb60391effa443c803ef85286cd7ddfce3e6[m
+Author: Eduardo Torquato <eduardotorquato78@gmail.com>
+Date:   Sat Jun 12 10:53:53 2021 -0300
+
+    Teste
+
+[33mcommit 83a8c4e5bf09e0615a6a8f6c9333cc385275676e[m
+Merge: 72e2dd6 58361b2
+Author: Eduardo Torquato <eduardotorquato78@gmail.com>
+Date:   Sat Jun 12 10:50:52 2021 -0300
+
+    Teste de atualização
+
+[33mcommit 72e2dd683880834a6559ea4a098bc80c7cadc929[m
+Merge: b22fb48 5b2b744
+Author: Eduardo Torquato <eduardotorquato78@gmail.com>
+Date:   Sat Jun 12 10:44:59 2021 -0300
+
+    att
+
+[33mcommit 58361b276c255ddcb84a2d4df855a90b848c0ca9[m
+Merge: d957847 5b2b744
+Author: Dourado8083 <gustavo.dourado.br@gmail.com>
+Date:   Sat Jun 12 10:41:16 2021 -0300
+
+    wilson
+
+[33mcommit d957847f62fc49fa73c24e11140faa2809d7ea46[m
+Author: Dourado8083 <gustavo.dourado.br@gmail.com>
+Date:   Sat Jun 12 10:33:32 2021 -0300
+
+    teste
+
+[33mcommit b22fb48f46a34425943eac63b9fba6750e17399c[m
+Author: Eduardo Torquato <eduardotorquato78@gmail.com>
+Date:   Sat Jun 12 10:33:29 2021 -0300
+
+    entrando
+
+[33mcommit e8d32712a62a4ec3144db913d7aca1488ff8b323[m
+Author: Dourado8083 <gustavo.dourado.br@gmail.com>
+Date:   Sat Jun 12 10:30:02 2021 -0300
+
+    refiz pois deu erro
+
+[33mcommit 5b2b7440aeb3b44edb7e749e6f7e0a2cafc7f8ca[m
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Sat Jun 12 10:20:39 2021 -0300
+
+    Atualisação
+
+[33mcommit a858daf73cba1bf9575dbc6ad406cb2249bdcbba[m
+Author: Day-Namite <daisybarbosa.p@gmail.com>
+Date:   Thu Jun 10 19:50:09 2021 -0300
+
+    Animal Day
+
+[33mcommit 5e0b7db0c75d768ebaf9a9b668a1bc2024d2514e[m
+Merge: 6c98286 cce482b
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Thu Jun 10 19:25:02 2021 -0300
+
+    Test6
+
+[33mcommit 6c98286009b74647b4224ba8dec5c7efd79cd914[m
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Thu Jun 10 19:23:44 2021 -0300
+
+    test6
+
+[33mcommit 8e87a6ad0bd23b99d99df86ae34c44709f8bfb59[m
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Thu Jun 10 19:22:51 2021 -0300
+
+    tste5
+
+[33mcommit d331d9512558192fdcae33b85577dac4793d70ea[m
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Thu Jun 10 19:22:20 2021 -0300
+
+    test5
+
+[33mcommit 5797b1af9ff91e20da22a8fea993e24a758260d8[m
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Thu Jun 10 19:17:14 2021 -0300
+
+    test4
+
+[33mcommit cce482b8b1e1958a6eb49447378fceab41e4bb63[m
+Merge: d02eddb c20d5fe
+Author: Dourado8083 <gustavo.dourado.br@gmail.com>
+Date:   Thu Jun 10 19:12:37 2021 -0300
+
+    testando
+
+[33mcommit c20d5fe0905afd864b29d0706af555f66b8af016[m
+Author: Eduardo Torquato <eduardotorquato78@gmail.com>
+Date:   Thu Jun 10 19:08:43 2021 -0300
+
+    OLA
+
+[33mcommit d02eddbc6002bbda3b5fe8bfb37e8d7bd8d6f190[m
+Merge: ecc4bec b34d9de
+Author: Dourado8083 <gustavo.dourado.br@gmail.com>
+Date:   Thu Jun 10 19:07:51 2021 -0300
+
+    Evolui 3
+
+[33mcommit b34d9de3cd50f58e0cebc50eb2a7a9138cbe1ee0[m
+Merge: 8557fed 24ca62d
+Author: Eduardo Torquato <eduardotorquato78@gmail.com>
+Date:   Thu Jun 10 19:06:34 2021 -0300
+
+    att
+
+[33mcommit ecc4bec8c666e97e2ef53d2b4c4b186e5dd834fa[m
+Author: Dourado8083 <gustavo.dourado.br@gmail.com>
+Date:   Thu Jun 10 19:05:47 2021 -0300
+
+    Evoluiu
+
+[33mcommit 8557fedd06dd3f3d33507d72e982877be756bc6b[m
+Author: Eduardo Torquato <eduardotorquato78@gmail.com>
+Date:   Thu Jun 10 19:04:50 2021 -0300
+
+    Atualização dourado
+
+[33mcommit bf4441730121cab4c9e9eadbeb84b2ce2850d96e[m
+Author: Dourado8083 <gustavo.dourado.br@gmail.com>
+Date:   Thu Jun 10 19:03:57 2021 -0300
+
+    Passaro_Dourado
+
+[33mcommit 447654ccd6a7a8f38cc85cd80dbf2f657ab616d1[m
+Author: Eduardo Torquato <eduardotorquato78@gmail.com>
+Date:   Thu Jun 10 19:01:02 2021 -0300
+
+    atualização dourado
+
+[33mcommit 24ca62dad1754081367f5b14c1b017555f19a15f[m
+Merge: 077ee6a dbb3151
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Thu Jun 10 18:54:59 2021 -0300
+
+    Test 4
+
+[33mcommit 077ee6a03ab073678f66ee8aa31bb29d81b2c10a[m
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Thu Jun 10 18:52:43 2021 -0300
+
+    test 3
+
+[33mcommit dbb31515292ebf04a221182458904faedf3d38dc[m
+Author: Eduardo Torquato <eduardotorquato78@gmail.com>
+Date:   Thu Jun 10 18:47:16 2021 -0300
+
+    animal Eduardo
+
+[33mcommit 77849f56d738b84504712ae2cbd5834014ab2e65[m
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Thu Jun 10 18:38:04 2021 -0300
+
+    Test 2
+
+[33mcommit bc1d60f1cd7676c8c3ca283b6b4543713b04dc4b[m
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Thu Jun 10 18:09:02 2021 -0300
+
+    Test
+
+[33mcommit eebe38e61063139e2a06098fe679a7cee7c33e0d[m
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Thu Jun 10 17:42:33 2021 -0300
+
+    Criando a Class Animal
+
+[33mcommit 09a35c37569bd9b02584ec5ecb10d2f59da2c5b5[m
+Author: Igor Tudisco <64790509+IgorTudisco@users.noreply.github.com>
+Date:   Mon Jun 7 20:18:35 2021 -0300
+
+    Create Readme
+    
+    Add info
+
+[33mcommit 19998bf2347fe1aa97b072942e82472a3c4474bb[m
+Author: Igor Tudisco <igortudisco@hotmail.com>
+Date:   Mon Jun 7 18:28:22 2021 -0300
+
+    first commit

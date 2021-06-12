@@ -1,8 +1,2 @@
-<<<<<<< HEAD
 INDEX VERSION 1.131+C:\Users\eduar\OneDrive\Área de Trabalho\Projeto Generation\BiologiaExotica\.metadata\.plugins\org.eclipse.jdt.core
 728298183.index
-=======
-INDEX VERSION 1.131+C:\Users\igort\Documents\Generation_Brasil\Projeto bloco I\.metadata\.plugins\org.eclipse.jdt.core
-3119846640.index
->>>>>>> f7a05d02bc2209d90e08fea03626251cb05f738e
-1399930534.index

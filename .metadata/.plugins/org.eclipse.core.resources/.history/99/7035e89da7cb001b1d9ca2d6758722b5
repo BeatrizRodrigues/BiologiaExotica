@@ -1,0 +1,22 @@
+package _AnimalExotico;
+
+import java.util.ArrayList;
+
+public abstract class Animal {
+
+		protected String nome;
+		protected String pesomedio;
+		protected String origem;
+	
+		
+		public Animal(String nome, String pesomedio, String origem) {
+			super();
+			this.nome = nome;
+			this.pesomedio = pesomedio;
+			this.origem = origem;
+		}
+		abstract public void Add(String nome, String pesomedio, String origem);
+		abstract public void mostrar();
+		abstract public void remover();
+
+}

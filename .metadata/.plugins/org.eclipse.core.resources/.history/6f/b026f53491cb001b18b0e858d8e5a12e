@@ -1,0 +1,104 @@
+package _AnimalExotico;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public abstract class Animal {
+
+	// Atributo
+	
+	protected String especie;
+	
+	protected String nomeCientifico;
+	
+	protected String nome;
+	
+	protected Double pesoMedio;
+	
+	protected String longevidade;
+
+	protected String origem; // (pais/estado)
+	
+	// Construtor
+	
+	public Animal(String especie, String nomeCientifico,
+			Double pesoMedio, Double velocidadeMaxima,
+			String longevidade, String origem) {
+		super();
+		this.especie = especie;
+		this.nomeCientifico = nomeCientifico;
+		this.pesoMedio = pesoMedio;
+		this.longevidade = longevidade;
+		this.origem = origem;
+	}
+	
+	// Metodos polimorfismo
+	
+	abstract public void especie(String especie);
+	abstract public void nomeCientifico(String nomeCientifico);
+	abstract public void nome(String nome);
+	abstract public void pesoMedio(String pesoMedio);
+	abstract public void longevidade(String Longevidade);
+	abstract public void origem(String origem);
+	
+	// Get e Set 
+	
+	public String getEspecie() {
+		return especie;
+	}
+
+	public void setEspecie(String especie) {
+		this.especie = especie;
+	}
+
+	public String getNomeCientifico() {
+		return nomeCientifico;
+	}
+
+	public void setNomeCientifico(String nomeCientifico) {
+		this.nomeCientifico = nomeCientifico;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Double getPesoMedio() {
+		return pesoMedio;
+	}
+
+	public void setPesoMedio(Double pesoMedio) {
+		this.pesoMedio = pesoMedio;
+	}
+
+	public String getLongevidade() {
+		return longevidade;
+	}
+
+	public void setLongevidade(String longevidade) {
+		this.longevidade = longevidade;
+	}
+
+	public String getOrigem() {
+		return origem;
+	}
+
+	public void setOrigem(String origem) {
+		this.origem = origem;
+	}
+	
+	List<String> name = new ArayList<String>();
+	
+	// Metodo add
+	
+	public void addAnimal() {
+		
+	}
+	
+
+
+}

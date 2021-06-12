@@ -6,7 +6,7 @@ public abstract class Animal {
     
     protected String especie;
     
-    protected String nomeCientifico;
+    protected String nomeCientífico;
     
     protected String nome;
     
@@ -18,12 +18,13 @@ public abstract class Animal {
     
     // Construtor
     
-    public Animal(String especie, String nomeCientifico,
-            Double pesoMedio,
-            String longevidade, String origem) {
+    public Animal(String especie, String nomeCientífico,
+            Double pesoMedio, Double velocidadeMaxima,
+            String longevidade, String origem)
+    {
         super();
         this.especie = especie;
-        this.nomeCientifico = nomeCientifico;
+        this.nomeCientífico = nomeCientífico;
         this.pesoMedio = pesoMedio;
         this.longevidade = longevidade;
         this.origem = origem;
@@ -32,11 +33,13 @@ public abstract class Animal {
     // Metodos
     
     abstract public void especie(String especie);
-    abstract public void nomeCientifico(String nomeCientifico);
-    abstract public void nome(String nome);
+    abstract public void nomeCientífico(String nomeCientífico);
     abstract public void pesoMedio(String pesoMedio);
+    abstract public void velocidadeMaxima(Double velocidadeMaxima);
     abstract public void longevidade(String Longevidade);
     abstract public void origem(String origem);
+    abstract public void add();
+    
 
 
 }
