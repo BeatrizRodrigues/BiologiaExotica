@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public abstract class Animal {
 
+<<<<<<< HEAD
     // Atributos   
     protected String especie;   
     protected String nome;
@@ -32,6 +33,53 @@ public abstract class Animal {
 		return especie;
 	}
 	public void setEspecie(String especie) {
+=======
+	
+	
+	
+	// Atributo
+	
+<<<<<<< HEAD
+	protected String nome;
+	protected Double pesoMedio;
+	protected String classe;
+	protected String longevidade;
+	protected String origem;
+=======
+	public String especie;
+	public String nomeCientífico;
+	public Double pesoMedio;
+<<<<<<< HEAD
+	 public Double velocidadeMaxima;
+=======
+	public Double velocidadeMaxima;
+>>>>>>> 67db4f7a36d269eaa102f46c025c064385719d3f
+	public String longevidade;
+	public String origem; // (pais/estado)
+>>>>>>> f7a05d02bc2209d90e08fea03626251cb05f738e
+	
+	// Construtor
+	
+	public Animal(String especie, String nomeCientífico,
+<<<<<<< HEAD
+			Double pesoMedio,
+=======
+<<<<<<< HEAD
+			Double pesoMedio, String classe,
+			String longevidade, String origem) 
+	{
+			super();
+			this.nome = nome;
+			this.pesoMedio = pesoMedio;
+			this.classe = classe;
+			this.longevidade = longevidade;
+			this.origem = origem;
+=======
+			Double pesoMedio, Double velocidadeMaxima,
+>>>>>>> 67db4f7a36d269eaa102f46c025c064385719d3f
+			String longevidade, String origem) {
+		super();
+>>>>>>> 8e483033075cf50e237584189fc17520f1cf6644
 		this.especie = especie;
 	}
 	
