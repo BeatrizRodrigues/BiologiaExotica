@@ -7,17 +7,14 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 public abstract class Animal {
-
+	private String nome;
 	private String tamanho;
 	private String nomeCientifico;
-	private String nome;
 	private String pesoMedio;
+	private Double velocidadeMaxima;
 	private String longevidade;
-	private String origem; // (pais/estado)
+	private String origem;
 	
-	// Construtor
-	
-	public Animal() {}
 	public Animal(String tamanho, String nomeCientifico, String nome,
 			String  pesoMedio, String  longevidade, String origem) {
 		super();
@@ -27,119 +24,73 @@ public abstract class Animal {
 		this.pesoMedio = pesoMedio;
 		this.longevidade = longevidade;
 		this.origem = origem;
-
 	}
-	//Método
+
 	
-	Scanner leia= new Scanner(System.in);
-	
-	
-	// Get e Set 
-	
-	public String getTamanho() {
-		return tamanho;
-	}
-
-	public void setTamanho(String tamanho) {
-		this.tamanho = tamanho;
-	}
-
-	public String getNomeCientifico() {
-		return nomeCientifico;
-	}
-
-	public void setNomeCientifico(String nomeCientifico) {
-		this.nomeCientifico = nomeCientifico;
-	}
-
 	public String getNome() {
 		return nome;
 	}
+
 
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
 
+
+	public String getTamanho() {
+		return tamanho;
+	}
+
+
+	public void setTamanho(String tamanho) {
+		this.tamanho = tamanho;
+	}
+
+
+	public String getNomeCientifico() {
+		return nomeCientifico;
+	}
+
+
+	public void setNomeCientifico(String nomeCientifico) {
+		this.nomeCientifico = nomeCientifico;
+	}
+
+
 	public String getPesoMedio() {
 		return pesoMedio;
 	}
+
 
 	public void setPesoMedio(String pesoMedio) {
 		this.pesoMedio = pesoMedio;
 	}
 
-	public String  getLongevidade() {
+
+	public String getNomeCientífico() {
+		return nomeCientifico;
+	}
+	public void setNomeCientífico(String nomeCientífico) {
+		this.nomeCientifico = nomeCientífico;
+	}
+	public Double getVelocidadeMaxima() {
+		return velocidadeMaxima;
+	}
+	public void setVelocidadeMaxima(Double velocidadeMaxima) {
+		this.velocidadeMaxima = velocidadeMaxima;
+	}
+	public String getLongevidade() {
 		return longevidade;
 	}
-
-	public void setLongevidade(String  longevidade) {
+	public void setLongevidade(String longevidade) {
 		this.longevidade = longevidade;
 	}
-
 	public String getOrigem() {
 		return origem;
 	}
-
 	public void setOrigem(String origem) {
 		this.origem = origem;
 	}
-
-	// Lista de Animais
 	
-	List<Animal> listAnimal = new ArrayList<Animal>();
-	public void adicionaAnimal(Animal animal) 
-	{
-		
-		
-		
-		
-		
-		System.out.println("Qual o nome do animal?");
-		nome = leia.next();
-		System.out.println("Qual a longevidade do animal?");
-		longevidade = leia.next();
-		System.out.println("Qual a origem do animal?");
-		origem = leia.next();
-		System.out.println("Qual o peso do animal?");
-		pesoMedio = leia.next();
-		System.out.println("Qual o tamanho do animal?");
-		tamanho = leia.next();
-		System.out.println("Qual o nome do animal?");
-		nomeCientifico = leia.next();
-		
-		listAnimal.add(animal);
-	}
-	public void mostraaNIMAL(Animal animal) 
-	{
-		System.out.println("Nome do animal: " + nome);
-		System.out.println("Tamanho do animal: " + tamanho);
-		System.out.println("Peso do animal: " + pesoMedio);
-		System.out.println("Nome Cientifico do animal: " + nomeCientifico);
-		System.out.println("Origem do animal: " + origem);
-	}
-	
-	// Metodo remover
-	
-	public void removeAnimal(Animal animal) {
-		
-		listAnimal.remove(animal);
-	}
-	
-	public void printAnimal() {
-		
-	System.out.println("\n\tAs caracteristicas do seu Animal: " );
-	
-	for(int i = 0; i<listAnimal.size(); i++) {
-	
-	System.out.println(
-					"\n\t" + listAnimal.get(i).getNome() + " " 
-	+ listAnimal.get(i).getNomeCientifico() 
-	+ " " + listAnimal.get(i).getOrigem() 
-	+ " " + listAnimal.get(i).getTamanho() 
-	+ " " + listAnimal.get(i).getPesoMedio() 
-	+ " " + listAnimal.get(i).getLongevidade()
-	);
-		}
-	}
-	
+	abstract void imprimir();
 }

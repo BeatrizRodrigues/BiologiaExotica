@@ -2,25 +2,17 @@ package _AnimalExotico;
 
 import java.util.Scanner;
 
+import Animal.Peixe;
+
 public class Programa {
 
 	public static void main(String[] args) {
+		Peixe animalDados = new Peixe("bia", "bia", "cafe", "sdbi", "hefbwi", "vaeif", "sdhfb");
+		animalDados.armazenarDados(animalDados);
+		Peixe animal = new Peixe("shjdvf","shjdvf", "shjdvf", "shjdvf","shjdvf", "shjdvf","shjdvf");
+		animalDados.armazenarDados(animal);
 		
-				Scanner read = new Scanner(System.in);
-				String nome, nomeCientifico, tamanho, pesoMedio, longevidade, origem;
-				String tipoAgua;
-				
-				
-				Repteis r = new Repteis();	
-				Aves a = new Aves();
-				
-				r.adicionaAnimal(a);
-				
-				
-				r.mostraaNIMAL(a);
-				
-				
-				
+		animalDados.imprimir();
 			
 	}
 

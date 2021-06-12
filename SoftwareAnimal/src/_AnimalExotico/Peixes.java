@@ -3,84 +3,58 @@ package _AnimalExotico;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Peixes extends Animal implements InterfaceAnimal {
+import Animal.Peixe;
+
+public class Peixes extends Animal {
 	
-	Scanner ler = new Scanner(System.in);
-	
-	ArrayList<Animal> list = new ArrayList<Animal>();
-	
+	ArrayList<Peixe> list = new ArrayList<Peixe>();
 	public String tipoAgua;
 	
-	public Peixes() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-	public Peixes(String tamanho, String nomeCientifico, String nome, String pesoMedio, String longevidade,
-			String origem, String tipoAgua) {
+	public Peixe(String tamanho, String nomeCientifico, String nome,
+			String  pesoMedio, String  longevidade, String origem, String tipoAgua) {
+		
 		super(tamanho, nomeCientifico, nome, pesoMedio, longevidade, origem);
-		// TODO Auto-generated constructor stub
 		this.tipoAgua = tipoAgua;
 	}
 	
-	@Override
-	public void armazenarDados(Animal n) {
-		list.add(n);
+	
+	public void armazenarDados(Peixe m) {
+		list.add(m);
 	}
 	
-	@Override
-	public void removerDados(Animal n) {
+	public void removerDados(Peixe n) {
 		list.remove(n);
 	}
-	
 	@Override
-	public void imprimirAnimal() {
-			for(int i = 0; i<list.size(); i++) {
-				System.out.println("Peixes: ");
+	public void imprimir() {
+		System.out.println("Peixes: ");
+		for(int i = 0; i<list.size(); i++) {				
 				System.out.println(
-					"\n\t" + list.get(i).getNome() + " "
-					+ list.get(i).getNomeCientifico() + " "
-					+ list.get(i).getOrigem() + " "
-					+ list.get(i).getTamanho() + " "
-					+ list.get(i).getPesoMedio() + " "
-					+ list.get(i).getLongevidade() + " " + tipoAgua);
+					"\n\t" + "Nome: "+list.get(i).getNome() + " | "
+					+ "Nome científico: " + list.get(i).getNomeCientifico() + " | "
+					+ "Origem: " + list.get(i).getOrigem() + " | "
+					+ "Tamanho: " + list.get(i).getTamanho() + " | "
+					+ "Peso médio: " + list.get(i).getPesoMedio() + " | "
+					+ "Longevidade: " + list.get(i).getLongevidade() + " | "
+					+ "Tipo de água: " + list.get(i).getTipoAgua());
 							
 		}
 	}
-	
-	@Override
-	public void especie(String tamanho) {
-		// TODO Auto-generated method stub
-		
+
+	public ArrayList<Peixe> getList() {
+		return list;
 	}
-	
-	@Override
-	public void nomeCientifico(String nomeCientifico) {
-		// TODO Auto-generated method stub
-		
+
+	public void setList(ArrayList<Peixe> list) {
+		this.list = list;
 	}
-	
-	@Override
-	public void nome(String nome) {
-		// TODO Auto-generated method stub
-		
+
+	public String getTipoAgua() {
+		return tipoAgua;
 	}
-	
-	@Override
-	public void pesoMedio(String pesoMedio) {
-		// TODO Auto-generated method stub
-		
-	}
-	
-	@Override
-	public void longevidade(String Longevidade) {
-		// TODO Auto-generated method stub
-		
-	}
-	
-	@Override
-	public void origem(String origem) {
-		// TODO Auto-generated method stub
-		
+
+	public void setTipoAgua(String tipoAgua) {
+		this.tipoAgua = tipoAgua;
 	}
 
 }
