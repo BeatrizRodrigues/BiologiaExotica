@@ -60,8 +60,18 @@ public class Animal extends InterfaceAnimal {
 					for(int i = 0; i < list.size(); i++) {
 						InterfaceAnimal p = list.get(i);
 						if(p.getNome().equals(remover)) {
-							list.remove(p);
+							
+							for(InterfaceAnimal r: list) {
+								
+								list.remove(p);
+								
+							}
+							
 							System.out.println("Animal removido");
+						} else {
+							
+							System.out.println("\nO nome do animal não bate com: " + list.get(i).getNome());
+														
 						}
 					}
 					break;
