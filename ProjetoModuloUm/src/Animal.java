@@ -38,6 +38,7 @@ public class Animal extends ReinoAnimal {
 					animal.setNome(nome);
 					System.out.println("Qual o nome científico do animal ? ");
 					nomeCientifico = ler.next();
+					ler.next();
 					animal.setNomeCientifico(nomeCientifico);
 					System.out.println("Qual o tamanho do animal ? ");
 					tamanho = ler.nextDouble();
