@@ -3,30 +3,33 @@ import java.util.Scanner;
 
 
 
-public class Animal extends InterfaceAnimal {
+public class Animal extends ReinoAnimal {
 
 	public static void main(String[] args) {
 		try {
-			ArrayList<InterfaceAnimal> list = new ArrayList<InterfaceAnimal>();	
+			ArrayList<ReinoAnimal> list = new ArrayList<ReinoAnimal>();	
 			Scanner ler = new Scanner(System.in);
 			String especie, nome, nomeCientifico, origem, remover;
 			Double tamanho, pesoMedio, velocidadeMaxima;
+			int contPonto = 0;
 			int longevidade;
 			int op;
 			
 			do {
-				InterfaceAnimal animal = new InterfaceAnimal();
+				ReinoAnimal animal = new ReinoAnimal();
 				System.out.println("\n###Opções###");
 				System.out.println("[1] Cadastrar novo animal");
 				System.out.println("[2] Remover animal");
 				System.out.println("[3] Imprimir lista de animais");
+				System.out.println("[4] Informações sobre as classes de Animais");
+				System.out.println("[5] Verifique a sua pontuação");
 				System.out.println("[0] Sair");
 					op = ler.nextInt();
 				
 				
 				switch(op) {
 				case 1:
-					System.out.println("Qual a especie do animal ? ");
+					System.out.println("Qual a classe do animal ? ");
 					especie = ler.next();
 					animal.setEspecie(especie);
 					System.out.println("Qual o nome do animal ? ");
@@ -52,52 +55,49 @@ public class Animal extends InterfaceAnimal {
 					animal.setOrigem(origem);
 					
 					list.add(animal);
+					contPonto+= 10;
 					
 					break;
 				case 2:
 					System.out.println("Digite o nome do animal deseja remover ");
 					remover = ler.next();
-					for(int i = 0; i < list.size(); i++) {
-						InterfaceAnimal p = list.get(i);
-						if(p.getNome().equals(remover)) {
-							
-							for(InterfaceAnimal r: list) {
-								
-								list.remove(p);
-								
-							}
-							
-							System.out.println("Animal removido");
-						} else {
-							
-							System.out.println("\nO nome do animal não bate com: " + list.get(i).getNome());
-														
-						}
+					animal.Remover(remover, list);
+					if(contPonto<0) {
+						contPonto = 0;
+					} else {
+
+						contPonto-= 10;
+						
 					}
 					break;
 				case 3:
 					System.out.println("\n\t"+"Animais ");
 					for(int i = 0; i<list.size(); i++) {				
-							System.out.println("\n" + "Especie: "+list.get(i).getEspecie() + " | "+
+							System.out.println("\n" + "Classe: "+list.get(i).getEspecie() + " | "+
 							"Nome: "+list.get(i).getNome() + " | " + "Nome científico: " + list.get(i).getNomeCientifico() + " | "
 							+ "Origem: " + list.get(i).getOrigem() + " | " + "Tamanho: " + list.get(i).getTamanho() + " | "
 							+ "Peso médio: " + list.get(i).getPesoMedio() + " | " + "Longevidade: " + list.get(i).getLongevidade() + " | \n");
 										
 					}
 					break;
+				case 4:
+					animal.print();
+					break;
+				case 5:
+					System.out.println("\nO seu número de pontos é: " + contPonto);
 				}
-				
 				
 			}while(op!=0);
 		}
 		catch(Exception erro){
 			
 			System.out.println("\n\tError");
-			System.out.println("\n\tVocê digital algo que não devia.");
+			System.out.println("\n\tVocê digitou algo que não devia.");
 			System.out.println("\n\t" + erro);
 			
 		}
-
+		
+		
 	}
 	
 	

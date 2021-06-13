@@ -1,5 +1,6 @@
+import java.util.ArrayList;
 
-public class InterfaceAnimal {
+public class ReinoAnimal extends Dados{
 	private String especie;
 	private String nome;
 	private String nomeCientifico;
@@ -9,20 +10,7 @@ public class InterfaceAnimal {
 	private int longevidade;
 	private String origem;
 	
-	/*public InterfaceAnimal(String especie, String nome, String nomeCientifico, Double tamanho,
-			Double  pesoMedio, Double velocidadeMaxima, int  longevidade, String origem) {
-		super();
-		this.especie = especie;
-		this.nome = nome;
-		this.nomeCientifico = nomeCientifico;
-		this.tamanho = tamanho;		
-		this.pesoMedio = pesoMedio;
-		this.velocidadeMaxima = velocidadeMaxima;
-		this.longevidade = longevidade;
-		this.origem = origem;
-	}*/
-	
-	public InterfaceAnimal() {
+	public ReinoAnimal() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
@@ -92,10 +80,41 @@ public class InterfaceAnimal {
 	public void setOrigem(String origem) {
 		this.origem = origem;
 	}
+
+	// Polimorfismo
 	
-	//Metodos
-	/*abstract void imprimir();
-	abstract void removerDados(String n);
-	abstract void armazenarDados(Animal m);*/
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		
+		System.out.println(dadosAnimal);
+		
+	}
+
+	
+	@Override
+	public void Remover(String remover, ArrayList<ReinoAnimal> list2) {
+		
+				
+		// TODO Auto-generated method stub
+		for(int i = 0; i < list2.size(); i++) {
+			ReinoAnimal p = list2.get(i);
+			if(p.getNome().equals(remover)) {
+				
+				for(ReinoAnimal r: list2) {
+					
+					list2.remove(p);
+					
+				}
+				
+				System.out.println("Animal removido");
+			} else {
+				
+				System.out.println("\nO nome do animal não bate com: " + list2.get(i).getNome());
+											
+			}
+		}
+		
+	}
 
 }
