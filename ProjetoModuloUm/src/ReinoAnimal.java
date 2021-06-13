@@ -100,13 +100,9 @@ public class ReinoAnimal extends Dados{
 		for(int i = 0; i < list2.size(); i++) {
 			ReinoAnimal p = list2.get(i);
 			if(p.getNome().equals(remover)) {
-				
-				for(ReinoAnimal r: list2) {
-					
+		
 					list2.remove(p);
-					
-				}
-				
+
 				System.out.println("Animal removido");
 			} else {
 				
