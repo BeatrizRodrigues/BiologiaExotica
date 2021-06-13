@@ -29,6 +29,7 @@ public class Animal extends ReinoAnimal {
 				
 				switch(op) {
 				case 1:
+					ler.next();
 					System.out.println("Qual a classe do animal ? ");
 					especie = ler.next();
 					animal.setEspecie(especie);
@@ -59,6 +60,7 @@ public class Animal extends ReinoAnimal {
 					
 					break;
 				case 2:
+					ler.next();
 					System.out.println("Digite o nome do animal deseja remover ");
 					remover = ler.next();
 					animal.Remover(remover, list);
