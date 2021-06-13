@@ -1,5 +1,0 @@
-package _AnimalExotico;
-
-public class Anfibios extends Animal implements interfaceAnimal {
-
-}

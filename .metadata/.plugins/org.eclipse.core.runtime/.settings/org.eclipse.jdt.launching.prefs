@@ -1,5 +1,0 @@
-=\=\=\=\=\=\=
-<<<<<<<=HEAD
->>>>>>>=9d15dbfafb4866a5c39837f15346af4f11e8de28
-eclipse.preferences.version=1
-org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1623529855543" defaultVMConnector\="">\r\n    <vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n        <vm id\="1623521808975" name\="jre" path\="C\:\\Users\\igort\\.p2\\pool\\plugins\\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\\jre"/>\r\n        <vm id\="1623529855543" javadocURL\="https\://docs.oracle.com/en/java/javase/15/docs/api/" name\="jre" path\="C\:\\Users\\eduar\\.p2\\pool\\plugins\\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\\jre"/>\r\n    </vmType>\r\n</vmSettings>\r\n

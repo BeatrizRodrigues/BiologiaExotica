@@ -1,8 +1,0 @@
-package _AnimalExotico;
-
-public class AveWilson extends  Animal{
-public String VelocidadeVo;
-public String tamanhoBI;
-
-}
-

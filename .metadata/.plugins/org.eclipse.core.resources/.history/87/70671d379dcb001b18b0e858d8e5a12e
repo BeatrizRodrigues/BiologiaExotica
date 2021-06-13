@@ -1,7 +1,0 @@
-package _AnimalExotico;
-
-public class Insetos extends Animal {
-	
-	
-	
-}

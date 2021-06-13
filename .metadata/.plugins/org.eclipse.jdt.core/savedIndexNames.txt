@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+C:\Users\eduar\OneDrive\Área de Trabalho\AnimaisClassesGeneration\BiologiaExotica\.metadata\.plugins\org.eclipse.jdt.core
-728298183.index
-1399930534.index
