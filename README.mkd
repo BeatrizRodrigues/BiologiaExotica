@@ -1,0 +1,18 @@
+<h1 align="center">Venha ver o nosso projeto Empresa BIDDG 👨‍💻</h1>
+<img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px"> 
+<h3 align="center">Empresa de Consultoria e Desenvolvimento de Software</h3>
+
+
+- 🔭 Projeto Bloco I.
+
+- 🤔 O nosso propósito é estimular a curiosidade das pessoas sobre o reino animal.
+
+- :briefcase: O objetivo do programa é catalogar espécies, e tornar mais intuitiva a curiosidade pelo reino animal, ele categoriza as espécies baseando-se em suas principais características, e você ganha pontos conforme você faz os inputs no catálogo, é como uma versão da vida real da pokedex.
+
+- 🌱 O desenvolvimento do projeto foi todo em java.
+
+<br>
+
+<p align="center">
+<img src="imagens\animais.jpg" alt="Reino Animal"/> 
+</p>
