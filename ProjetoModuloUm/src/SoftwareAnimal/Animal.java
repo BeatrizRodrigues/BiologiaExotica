@@ -59,7 +59,7 @@ public class Animal extends ReinoAnimal {
 					System.out.println("Digite o nome do animal deseja remover ");
 					remover = ler.next();
 					animal.Remover(remover, list);
-					if(contPonto<0) {
+					if(contPonto<=0) {
 						contPonto = 0;
 					} else {
 
