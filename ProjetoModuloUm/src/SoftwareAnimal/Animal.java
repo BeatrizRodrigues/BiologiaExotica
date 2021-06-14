@@ -1,7 +1,7 @@
+package SoftwareAnimal;
+
 import java.util.ArrayList;
 import java.util.Scanner;
-
-
 
 public class Animal extends ReinoAnimal {
 
@@ -9,12 +9,9 @@ public class Animal extends ReinoAnimal {
 		try {
 			ArrayList<ReinoAnimal> list = new ArrayList<ReinoAnimal>();	
 			Scanner ler = new Scanner(System.in);
-			Scanner ler2 = new Scanner(System.in);
-			String especie, nome, nomeCientifico, origem, remover;
+			String especie, nome, origem, remover;
 			Double tamanho, pesoMedio, velocidadeMaxima;
-			int contPonto = 0;
-			int longevidade;
-			int op;
+			int contPonto = 0, longevidade, op;
 			
 			do {
 				ReinoAnimal animal = new ReinoAnimal();
@@ -25,7 +22,7 @@ public class Animal extends ReinoAnimal {
 				System.out.println("[4] Informações sobre as classes de Animais");
 				System.out.println("[5] Verifique a sua pontuação");
 				System.out.println("[0] Sair");
-					op = ler.nextInt();
+				op = ler.nextInt();
 				
 				
 				switch(op) {
@@ -35,7 +32,7 @@ public class Animal extends ReinoAnimal {
 					especie = ler.next();
 					animal.setEspecie(especie);
 					System.out.println("Qual o nome do animal ? ");
-					nome = ler2.next();
+					nome = ler.next();
 					animal.setNome(nome);
 					System.out.println("Qual o tamanho do animal ? ");
 					tamanho = ler.nextDouble();
@@ -93,10 +90,10 @@ public class Animal extends ReinoAnimal {
 			
 			System.out.println("\n\tError");
 			System.out.println("\n\tVocê digitou algo que não devia.");
-			System.out.println("\n\t" + erro);
 			
 		}
 		
+		System.out.println("\n\tPrograma finalizado...!");
 		
 	}
 	

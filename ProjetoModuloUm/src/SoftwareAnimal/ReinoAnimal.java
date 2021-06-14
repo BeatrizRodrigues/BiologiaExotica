@@ -1,6 +1,8 @@
+package SoftwareAnimal;
 import java.util.ArrayList;
 
 public class ReinoAnimal extends Dados{
+	
 	private String especie;
 	private String nome;
 	private Double tamanho;	
@@ -13,7 +15,7 @@ public class ReinoAnimal extends Dados{
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	
+		
 	//Getters and Setters
 
 	public String getEspecie() {
