@@ -3,7 +3,6 @@ import java.util.ArrayList;
 public class ReinoAnimal extends Dados{
 	private String especie;
 	private String nome;
-	private String nomeCientifico;
 	private Double tamanho;	
 	private Double pesoMedio;
 	private Double velocidadeMaxima;
@@ -14,7 +13,7 @@ public class ReinoAnimal extends Dados{
 		super();
 		// TODO Auto-generated constructor stub
 	}
-
+	
 	//Getters and Setters
 
 	public String getEspecie() {
@@ -31,14 +30,6 @@ public class ReinoAnimal extends Dados{
 
 	public void setNome(String nome) {
 		this.nome = nome;
-	}
-
-	public String getNomeCientifico() {
-		return nomeCientifico;
-	}
-
-	public void setNomeCientifico(String nomeCientifico) {
-		this.nomeCientifico = nomeCientifico;
 	}
 
 	public Double getTamanho() {

@@ -9,6 +9,7 @@ public class Animal extends ReinoAnimal {
 		try {
 			ArrayList<ReinoAnimal> list = new ArrayList<ReinoAnimal>();	
 			Scanner ler = new Scanner(System.in);
+			Scanner ler2 = new Scanner(System.in);
 			String especie, nome, nomeCientifico, origem, remover;
 			Double tamanho, pesoMedio, velocidadeMaxima;
 			int contPonto = 0;
@@ -34,12 +35,8 @@ public class Animal extends ReinoAnimal {
 					especie = ler.next();
 					animal.setEspecie(especie);
 					System.out.println("Qual o nome do animal ? ");
-					nome = ler.next();
+					nome = ler2.next();
 					animal.setNome(nome);
-					System.out.println("Qual o nome científico do animal ? ");
-					nomeCientifico = ler.next();
-					ler.next();
-					animal.setNomeCientifico(nomeCientifico);
 					System.out.println("Qual o tamanho do animal ? ");
 					tamanho = ler.nextDouble();
 					animal.setTamanho(tamanho);
@@ -77,7 +74,7 @@ public class Animal extends ReinoAnimal {
 					System.out.println("\n\t"+"Animais ");
 					for(int i = 0; i<list.size(); i++) {				
 							System.out.println("\n" + "Classe: "+list.get(i).getEspecie() + " | "+
-							"Nome: "+list.get(i).getNome() + " | " + "Nome científico: " + list.get(i).getNomeCientifico() + " | "
+							"Nome: "+list.get(i).getNome() + " | " 
 							+ "Origem: " + list.get(i).getOrigem() + " | " + "Tamanho: " + list.get(i).getTamanho() + " | "
 							+ "Peso médio: " + list.get(i).getPesoMedio() + " | " + "Longevidade: " + list.get(i).getLongevidade() + " | \n");
 										
